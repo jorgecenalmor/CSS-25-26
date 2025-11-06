@@ -1,0 +1,14 @@
+.tarjeta>h2{
+    color: orange;
+    font-size-adjust: 20px;
+}
+
+.tarjeta>p{
+    color: darkgray;
+    font-style: italic;
+}
+
+.contenido p{
+    color: green;
+    margin-top: 10;
+}

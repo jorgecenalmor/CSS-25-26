@@ -1,0 +1,19 @@
+#id_contenedor_quien_eres,#id_contenedor_condiciones,#id_contenedor_de_donde_eres,#id_contenedor_inicio_sesion{
+background-color: coral;
+}
+
+.clase_texto{
+color: rebeccapurple;
+}
+
+.clase_fecha{
+color: blanchedalmond;
+}
+
+.clase_select{
+color: blue;
+}
+
+.clase_opciones{
+color: azure;
+}

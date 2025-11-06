@@ -1,0 +1,10 @@
+h2 + p{
+    background-color: yellow;
+}
+
+.contenido>p{
+    color:blue
+}
+.contenido+p{
+    size-adjust: 12px;
+}

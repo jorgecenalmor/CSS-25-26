@@ -1,0 +1,37 @@
+#contenedor1{
+    background-color: lightblue;
+    width: 300px;
+}
+
+#contenedor2{
+    background-color: lightcoral;
+    width: 300px;
+}
+#contenedor1:hover{
+    opacity: 0.5;
+}
+
+#contenedor2:hover{
+    opacity: 0.5;
+}
+
+#contenedor2 h1:active{
+    box-shadow: 1;
+}
+
+
+
+
+.boton{
+    background-color: pink;
+    width: 100px;
+    height: 20px;
+}
+
+#contenedor1>.boton:nth-child(2){
+    background-color: black;
+}
+
+#contenedor2>.boton:nth-child(3){
+    background-color: black;
+}

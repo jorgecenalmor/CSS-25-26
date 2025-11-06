@@ -1,0 +1,51 @@
+<head> <meta charset="utf-8" /> <title>Registro - iDESWEB</title></head>
+<link  href="./actividad2.css">
+<body>
+    <fieldset><div id="id_contenedor_quien_eres">
+        <legend>¿QUIÉN ERES?</legend>
+            <form>
+                <p class="clase_texto"><label>Nombre:<input type="text"></label></p>
+                <p class="clase_texto"><label>Apellidos:<input type="text"></label></p>
+                <p class="clase_texto"><label>Correo electrónico:<input type="email"></label></p>
+                <p class="clase_fecha"><label>Fecha de nacimiento:<input type="date"></label></p>
+            </form>
+    </div>
+    </fieldset>
+
+    <fieldset><div id="id_contenedor_de_donde_eres">
+        <legend>¿DE DÓNDE ERES?</legend>
+            <form>
+                <p class="clase_texto"><label>Ciudad:<input type="text"></label></p>
+                <p class="clase_texto"><label>Código postal:<input type="number"></label></p>
+                <p class="clase_select"><label>País:<select><option value="España">Esapaña</option><option value="Portugal">Portugal</option><option value="El Fresno">El Fresno</option></select></label></p>
+            </form>
+    </div>
+    </fieldset>
+
+    <fieldset><div id="id_contenedor_inicio_sesion">
+        <legend>¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+            <form>
+                <p class="clase_texto"><label>Nombre de usuario:<input type="text"></label></p>
+                <p class="clase_texto"><label>Contraseña:<input type="password"></label></p>
+                <p class="clase_texto"><label>Vuelva a escribir la contraseña:<input type="password"></label></p>
+            </form>
+    </div>
+    </fieldset>
+
+    <fieldset id="id_contenedor_condiciones">
+        <legend>CONDICIONES DE REGISTRO</legend>
+            <form>
+                <h2>Deseo recibir ofertas de iDESWEB:</h2>
+                <input type="radio" id="clase_opciones" name="opciones" value="dia"><label for="dia">Una vez al día</label>
+                <input type="radio" id="clase_opciones" name="opciones" value="semana"><label for="semana">Una vez a la semana</label>
+                <input type="radio" id="clase_opciones" name="opciones" value="mes"><label for="mes">Una vez al mes</label>
+                <p class="clase_opciones"><label><input type="checkbox">Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies</label></p>
+            </form>
+    
+    </fieldset>
+    
+    <fieldset><div id="id_botón_crear_cuenta">
+        <input type="submit" value="Crear cuenta">
+    </div></fieldset>
+
+</body>
