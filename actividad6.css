@@ -1,3 +1,30 @@
-li .list ::before{
-content:\2714 ;
+.list, .list2{
+    list-style: none;
+}
+ 
+.list li:before{
+    content: '\2714';
+}
+.list2 li::before{
+    content: '\273C';
+}
+ 
+body{
+    background-color: black;
+}
+ 
+.list, h1, .list2{
+    color: white;
+    text-align: center;
+}
+.list2 li{
+    font-size: 30px;
+}
+ 
+h1{
+    font-size: 50px;
+    text-shadow: 3px -2px purple;
+}
+h1::first-letter{
+    text-shadow: 3px -2px cyan;
 }

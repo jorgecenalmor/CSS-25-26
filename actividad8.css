@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(2, 46, 91);
+}
+#elemento1,#elemento2,#elemento3{
+    background-color: cornflowerblue;
+}
+#elemento1{
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    background-color: #344e6c;
+    width:100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#elemento3{
+    display: flex;
+    align-content: flex-start;
+ 
+}
+#m{
+    background-color: #344e6c;
+    margin: 5px;
+    border-radius: 5px;
+}

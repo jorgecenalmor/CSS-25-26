@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #f0f0f0;
+}
+ 
+.bloque1{
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid blue;
+    margin-bottom: 40px;
+    position: static;
+}
+ 
+.bloque2{
+    background-color: lightcoral;
+    padding: 40px;
+    border: 2px solid red;
+    margin-bottom: 40px;
+    position: relative;
+}
+ 
+.hijo1{
+    background-color: rgb(255, 226, 159);
+    padding: 10px;
+    border: 1px solid orange;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+ 
+.hijo2{
+    background-color: rgb(194, 255, 194);
+    padding: 10px;
+    border: 1px solid green;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+ 
+.hijo3{
+    background-color: rgb(198, 198, 255);
+    padding: 10px;
+    border: 1px solid indigo;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+ 
+.bloque3{
+    background-color: lightgreen;
+    padding: 20px;
+    border: 2px solid green;
+    position: relative;
+}

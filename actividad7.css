@@ -1,0 +1,26 @@
+body{
+    background-color: #1B4079;
+}
+#pagina{
+    background-color:#00CEC8;
+}
+header{
+    background-color: #7F9C96;
+    width: 250px;
+}
+nav{
+    background-color: #8FAD88;
+    width:250px ;
+}
+#menu>p{
+    background-color: beige;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+h1{
+    color: #CBDF90;
+}
+td{
+    background-color: bisque;
+}
