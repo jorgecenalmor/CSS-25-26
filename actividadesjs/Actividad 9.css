@@ -1,0 +1,9 @@
+div{
+    padding: 10%;
+    margin: 30px;
+    background-color: grey;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
